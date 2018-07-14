@@ -17,6 +17,14 @@ public class Room {
 
     private boolean open;
 
+    public Room(String id, long fromDate, long toDate, long closingDay, boolean open) {
+        this.id = id;
+        this.fromDate = fromDate;
+        this.toDate = toDate;
+        this.closingDay = closingDay;
+        this.open = open;
+    }
+
     public String getId() {
         return id;
     }
